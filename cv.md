@@ -6,10 +6,11 @@
 * **Discord**: alexalexalex#9404
 
 ## Summary
+I'm currently working as a SEO specialist, so i have some own websites. I would like to try myself as a Front-end developer :)
 
 ## Skills
 * Lot of SEO Skills (Competitors Research, Keyword Research, LinkBuilding, PBNs, Wordpress etc)
-* Basic Skill of HTML/CSS
+* Basic Skill of HTML/CSS/JS
 * Windows OS, Linux(Ubuntu)
 ## Code Example
 ```
@@ -31,7 +32,5 @@ Working as a SEO Enterpeneur till 2011
 
 ## Languages
 * English B1
-* Belarus Native
-* Russian C2
 
 
