@@ -3,9 +3,9 @@
 ----------
 
 ### Contact information:
-  **Location:**  Warsaw, Poland
-  **E-mail:**  aliaksandrshalima@gmail.com
-  [LinkedIn](https://www.linkedin.com/in/alexander-shalima/) 
+  **Location:**  Warsaw, Poland  
+  **E-mail:**  aliaksandrshalima@gmail.com  
+  [LinkedIn](https://www.linkedin.com/in/alexander-shalima/)   
   
 ----------
 ### Briefly About Myself:
