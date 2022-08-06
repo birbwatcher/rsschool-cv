@@ -125,3 +125,10 @@ main {
 .icon-name img{
     margin-right: 10px;
 }
+
+footer {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
