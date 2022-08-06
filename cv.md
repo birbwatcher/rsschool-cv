@@ -9,7 +9,7 @@
   
 ----------
 ### Briefly About Myself:
-Currently i am working as a SEO Specialist, but considering to become a Frontend Developer. Over the years, I have implemented a number of small and micro-niche Wordpress websites from scratch and took care of all the SEO management.
+Currently i am working as a SEO Specialist, but considering to become a Frontend Developer. Over the years, I have implemented a number of small and micro-niche Wordpress websites from scratch and took care of all the SEO management. In the course of my work I came across Javascript and I found it very interesting for me. 
 
 I'm constantly developing my skills, and learning new things. 
 Possibly, my SEO experience will be useful in future work as a Frontend developer.
