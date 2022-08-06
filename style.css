@@ -1,0 +1,127 @@
+
+body{
+    background-color: bisque;
+    /* background-color: black; */
+    /* color: white; */
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 100vh;
+    background-color: bisque;
+    /* background-color: black; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-photo img{
+    border-radius: 50%;
+    width: 250px;
+}
+
+.hello {
+    font-size: 30px;
+}
+
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.about-me-description {
+    margin: 0 25px 0;
+}
+
+.contacts {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.icon:hover {
+    opacity: 50%;
+}
+
+.location {
+    font-size: 30px;
+}
+
+.skills {
+    background: linear-gradient(0deg, rgb(113, 169, 184) 0%, rgba(109,213,237,1) 100%);
+}
+
+.code-example {
+    position: relative;
+    background-color: rgb(241, 240, 240);
+}
+
+.code-doggy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.work-experience, .code-example, .skills, .education, .courses, .languages {
+    padding: 10px 40px;
+    margin: 0 25px 15px;
+    border-radius: 20px;
+}
+
+.work-experience h2, .education h2, .courses h2,  .languages h2{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.084);
+}
+
+.skills-list {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+}
+
+.list-item:nth-child(3n - 2) {
+    grid-row: 1 / 2;
+}
+
+.seo-list-item:nth-child(4n - 2) {
+    grid-row: 1 / 2;
+}
+
+.icon-name {
+    display: flex;
+    align-items: center;
+}
+
+.icon-name img{
+    margin-right: 10px;
+}
