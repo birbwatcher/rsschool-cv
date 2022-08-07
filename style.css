@@ -1,0 +1,166 @@
+
+body{
+    background-color: black;
+    color: rgb(210, 210, 210);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(99, 99, 99);
+}
+
+li {
+    list-style: none;
+}
+
+.work-experience ul li::before {
+    content: "📌";
+  }
+
+h1 {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 100vh;
+    /* background-color: bisque; */
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-photo img{
+    border-radius: 50%;
+    width: 250px;
+    border: 5px solid rgb(74, 74, 74);
+}
+
+.hello {
+    font-size: 30px;
+}
+
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.about-me-description {
+    margin: 0 25px 0;
+}
+
+.contacts {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.icon:hover {
+    opacity: 50%;
+}
+
+.location {
+    font-size: 30px;
+}
+
+.skills {
+    background: linear-gradient(0deg, rgb(113, 169, 184) 0%, rgba(109,213,237,1) 100%);
+    color: black;
+}
+
+.code-example {
+    position: relative;
+    background-color: rgb(18, 18, 18);
+}
+
+.code-doggy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.work-experience, .code-example, .skills, .education, .courses, .languages {
+    padding: 10px 40px;
+    margin: 0 25px 15px;
+    border-radius: 20px;
+}
+
+.work-experience h2, .education h2, .courses h2,  .languages h2{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.295);
+}
+
+.skills-list {
+    column-count: 3;
+  }
+
+.list-item:hover {
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+}
+
+.list-item::before {
+    content: "✔️";
+}
+
+.icon-name {
+    display: flex;
+    align-items: center;
+}
+
+.icon-name img{
+    margin-right: 10px;
+}
+
+footer {
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.github-icon{
+    width: 50px;
+    height: 50px;
+
+}
+
+.github-icon g {
+    fill: white;
+}
+
+.github-icon:hover  g{
+    fill: rgb(97, 97, 97);
+}
+
+.rs-school {
+    width: 120px;
+}
+
+#Layer_1 {
+    fill: white;  
+}
