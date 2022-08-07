@@ -1,20 +1,30 @@
 
 body{
-    background-color: bisque;
-    /* background-color: black; */
-    /* color: white; */
+    /* background-color: bisque; */
+    background-color: black;
+    color: rgb(210, 210, 210);
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 li {
-    list-style-type: none;
+    list-style: none;
 }
 
-ul {
+/* ul {
     margin-left: 0;
     padding-left: 0;
-}
+} */
+
+.work-experience ul li::before {
+    content: "📌";
+  }
 
 h1 {
     font-size: 60px;
@@ -33,8 +43,8 @@ h1 {
     flex-direction: column;
     width: 1200px;
     height: 100vh;
-    background-color: bisque;
-    /* background-color: black; */
+    /* background-color: bisque; */
+    background-color: black;
 }
 
 main {
@@ -68,6 +78,7 @@ main {
     display: flex;
     width: 200px;
     justify-content: space-around;
+    margin-bottom: 15px;
 }
 
 .icon:hover {
@@ -80,11 +91,12 @@ main {
 
 .skills {
     background: linear-gradient(0deg, rgb(113, 169, 184) 0%, rgba(109,213,237,1) 100%);
+    color: black;
 }
 
 .code-example {
     position: relative;
-    background-color: rgb(241, 240, 240);
+    background-color: rgb(18, 18, 18);
 }
 
 .code-doggy {
@@ -100,23 +112,14 @@ main {
 }
 
 .work-experience h2, .education h2, .courses h2,  .languages h2{
-    border-bottom: 2px solid rgba(0, 0, 0, 0.084);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.295);
 }
 
-.skills-list {
-    display: grid;
-    gap: 20px;
-    width: 100%;
-}
+.skills-list ul {
+    display: inline-grid;
+  }
 
-.list-item:nth-child(3n - 2) {
-    grid-row: 1 / 2;
-}
-
-.seo-list-item:nth-child(4n - 2) {
-    grid-row: 1 / 2;
-}
-
+  
 .icon-name {
     display: flex;
     align-items: center;
@@ -127,8 +130,30 @@ main {
 }
 
 footer {
-    background-color: blanchedalmond;
+    background-color: rgb(19, 19, 19);
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.github-icon{
+    width: 50px;
+    height: 50px;
+
+}
+
+.github-icon g {
+    fill: white;
+}
+
+.github-icon:hover  g{
+    fill: rgb(97, 97, 97);
+}
+
+.rs-school {
+    width: 120px;
+}
+
+#Layer_1 {
+    fill: white;  
 }
