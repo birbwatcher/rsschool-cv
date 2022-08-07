@@ -1,6 +1,5 @@
 
 body{
-    /* background-color: bisque; */
     background-color: black;
     color: rgb(210, 210, 210);
     font-size: 20px;
@@ -16,11 +15,6 @@ a {
 li {
     list-style: none;
 }
-
-/* ul {
-    margin-left: 0;
-    padding-left: 0;
-} */
 
 .work-experience ul li::before {
     content: "📌";
@@ -115,11 +109,19 @@ main {
     border-bottom: 2px solid rgba(255, 255, 255, 0.295);
 }
 
-.skills-list ul {
-    display: inline-grid;
+.skills-list {
+    column-count: 3;
   }
 
-  
+.list-item:hover {
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+}
+
+.list-item::before {
+    content: "✔️";
+}
+
 .icon-name {
     display: flex;
     align-items: center;
