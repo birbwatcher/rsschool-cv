@@ -28,6 +28,7 @@ h1 {
     font-size: 60px;
     margin-top: 0px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .wrapper {
@@ -41,7 +42,6 @@ h1 {
     flex-direction: column;
     width: 1200px;
     height: 100vh;
-    /* background-color: bisque; */
     background-color: black;
 }
 
@@ -59,6 +59,7 @@ main {
 
 .hello {
     font-size: 30px;
+    text-align: center;
 }
 
 
@@ -104,13 +105,13 @@ main {
     right: 0;
 }
 
-.work-experience, .code-example, .skills, .education, .courses, .languages {
+.rounded-block {
+    border-radius: 20px;
     padding: 10px 40px;
     margin: 0 25px 15px;
-    border-radius: 20px;
 }
 
-.work-experience h2, .education h2, .courses h2,  .languages h2{
+.divider{
     border-bottom: 2px solid rgba(255, 255, 255, 0.295);
 }
 
@@ -163,4 +164,22 @@ footer {
 
 #Layer_1 {
     fill: white;
+}
+
+/*==================
+768px <= width < 1280px
+==================*/
+@media screen and (max-width: 1279.9px) and (min-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 767.9px) {
+    .skills-list {
+        column-count: 1;
+      }
+
+      .code-example {
+        display: none;
+      };
 }
