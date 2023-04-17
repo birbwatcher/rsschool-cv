@@ -90,7 +90,7 @@ main {
 }
 
 .skills {
-    background: linear-gradient(0deg, rgb(113, 169, 184) 0%, rgba(109,213,237,1) 100%);
+    background: linear-gradient(90deg, rgb(147, 255, 176) 0%, rgb(125, 187, 201) 100%);
     color: black;
 }
 
@@ -166,11 +166,56 @@ footer {
     fill: white;
 }
 
+.profession-title {
+    color: transparent;
+    --tw-gradient-to: #2563eb;
+    --tw-gradient-from: #4ade80;
+    --tw-gradient-to: rgba(48, 2, 255, 0.817);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.portfolio {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 45%;
+    opacity: 75%;
+}
+
+.portfolio-item-img {
+    width: 480px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.portfolio-item:hover{
+    opacity: 100%;
+    border: rgb(101, 101, 101) solid 2px;
+    border-radius: 10px;
+}
+
 /*==================
 768px <= width < 1280px
 ==================*/
 @media screen and (max-width: 1279.9px) and (min-width: 768px) {
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .portfolio-item {
+        width: 100%;
+    }
 }
 
 
